@@ -1,0 +1,69 @@
+.appLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topbar {
+  background: #007bff;
+  color: white;
+  padding: 10px 16px;
+  display: none;
+  align-items: center;
+  gap: 12px;
+}
+
+.menuIcon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.appTitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 270px;
+  border-right: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .topbar {
+    display: flex;
+  }
+
+  .sidebar {
+    position: absolute;
+    top: 48px;
+    left: -100%;
+    height: calc(100% - 48px);
+    width: 270px;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease;
+  }
+
+  .sidebarOpen {
+    left: 0;
+  }
+
+  .content {
+    flex: 1;
+    padding: 12px;
+  }
+}

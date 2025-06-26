@@ -1,0 +1,41 @@
+.fileContainer{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding : 4px 10px ;
+    border-radius: 4px ;
+    transition: background-color 0.2s ease;
+}
+
+.fileContainer:hover{
+    background-color: #f4f4f4 ;
+}
+
+.fileContent{
+    display: flex;
+    align-items: center;
+    gap : 8px ;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.fileIcon{
+    font-size: 16px ;
+    flex-shrink: 0;
+}
+.fileName{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap ;
+}
+.actionIcons{
+    display: flex;
+    gap : 8px ;
+}
+.icon{
+    font-size: 18px ;
+    cursor: pointer;
+    transition: color 0.2s ease ;
+}
+.icon:hover{
+    color : #ff5722
+}

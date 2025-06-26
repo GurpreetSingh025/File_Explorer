@@ -1,0 +1,40 @@
+[
+    {
+        "name" : "Folder 1" ,
+        "type" : "folder" ,
+        "id" : 1 ,
+        "items" : [
+             {
+                 "id" : 1 ,
+                 "name" : "File 1" ,
+                 "type" : "file" ,
+                 "content" : "This is file 1" 
+             } ,
+             {
+                 "id" : 2 ,
+                 "name" : "File 2" ,
+                 "type" : "file" ,
+                 "content" : "This is file 2" 
+             }
+        ]
+    } ,
+    {
+        "name" : "Folder 2" ,
+        "type" : "folder" ,
+        "id" : 2 ,
+        "items" : [
+             {
+                 "id" : 1 ,
+                 "name" : "File 1" ,
+                 "type" : "file" ,
+                 "content" : "This is file 1" 
+             } ,
+             {
+                 "id" : 2 ,
+                 "name" : "File 2" ,
+                 "type" : "file" ,
+                 "content" : "This is file 2" 
+             }
+        ]
+    }
+]

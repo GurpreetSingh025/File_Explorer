@@ -1,0 +1,43 @@
+.contentContainer {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 1px solid #ddd;
+  height: 100vh;
+  overflow-y: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.fileContent {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.fileName {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+  word-break: break-word;
+}
+
+.fileText {
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  border: 1px solid #e0e0e0;
+  overflow-x: auto;
+}
+
+.placeholder {
+  color: #888;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 40px;
+}
